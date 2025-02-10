@@ -746,12 +746,32 @@ select {
 .block--products {
   margin-top: 2rem;
   margin-bottom: 1.5rem;
-
-  @media (width>390px) {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  position: relative;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  @media screen and (min-width: 767px) {
+    display: grid;
+    place-items: center;
     row-gap: 2rem;
     margin-top: 3.125rem;
     margin-bottom: 2.25rem;
   }
+  @media screen and (min-width: 767px) and (max-width: 1023px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media screen and (min-width: 1024px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.card--product {
+  scroll-snap-align: start;
 }
 
 .card__image {
