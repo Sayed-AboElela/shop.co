@@ -1,130 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shop.co</title>
     <!-- <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" /> -->
     <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200 /> -->
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="css/main.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
 
-<body class="">
+  <body class="">
+    <seaction class="wrapper">
+      <div class="block block--styles bg-accent">
+        <h2
+          class="heading heading--styles__block ff-integralcf text-black text-center fw-700 text-uppercase"
+        >
+          BROWSE BY dress STYLE
+        </h2>
+        <div class="d-grid d-grid-place-center block--styles__grid">
+          <div class="block--styles__item bg-white d-flex">
+            <h3
+              class="block--styles__item--heading text-black fw-700 text-capitalize"
+            >
+              casual
+            </h3>
+            <img
+              src="./assets/images/card--image--2.png"
+              alt="Shop.co"
+              class="block--styles__image"
+              />
+          </div>
 
-    <header class="">
-        <nav id="navbar" class="wrapper navbar d-flex flex-align-center flex-justify-between">
-            <div class="d-flex flex-align-center logo--container">
-                <label for="toggle" id="btn--mobile--menu"
-                    class="btn btn--toggeler bg-transparent d-flex flex-align-center flex-justify-center text-black">
-                    <span class="material-symbols-outlined fw-500">
-                        menu
-                    </span>
-                </label>
-                <a href="#" class="logo ff-integralcf fw-700 text-black text-uppercase">
-                    SHOP.CO
-                </a>
-            </div>
-            <ul role="list" id="navlist" class="navlist d-flex flex-align-center">
-                <button id="btn--close" class="btn btn--close bg-transparent text-black md-hidden">
-                    <span class="material-symbols-outlined">
-                        close
-                    </span>
-                </button>
+          <div class="block--styles__item bg-white d-flex">
+            <h3
+              class="block--styles__item--heading text-black fw-700 text-capitalize"
+            >
+              Formal
+            </h3>
+            
+            <img
+              src="./assets/images/card--image.png"
+              alt="Shop.co"
+              class="block--styles__image"
+            />
+          </div>
 
-                <li class="nav--item">
-                    <a href="#" class="nav--link d-flex flex-align-center text-black" style="--gap:0.1rem">
-                        Shop
-                        <span class="material-symbols-outlined fw-500">
-                            arrow_drop_down
-                        </span>
-                    </a>
-                </li>
-                <li class="nav--item">
-                    <a href="#" class="nav--link text-black">
-                        On Sale
-                    </a>
-                </li>
-                <li class="nav--item">
-                    <a href="#" class="nav--link text-black">
-                        New Arrivals
-                    </a>
-                </li>
-                <li class="nav--item">
-                    <a href="#" class="nav--link text-black">
-                        Brands
-                    </a>
-                </li>
-            </ul>
+          <div class="block--styles__item bg-white d-flex">
+            <h3
+              class="block--styles__item--heading text-black fw-700 text-capitalize"
+            >
+              Party
+            </h3>
+            <img
+              src="./assets/images/card--image--3.png"
+              alt="Shop.co"
+              class="block--styles__image"
+            />
+          </div>
 
-            <div id="input-group__search" class="input-group input-group__search flex-align-center bg-accent">
+          <div class="block--styles__item bg-white d-flex">
+            <h3
+              class="block--styles__item--heading text-black fw-700 text-capitalize"
+            >
+              Gym
+            </h3>
+            <img
+              src="./assets/images/card--image--4.png"
+              alt="Shop.co"
+              class="block--styles__image"
+            />
+          </div>
+        </div>
+      </div>
+    </seaction>
 
-                <button class="btn d-flex bg-transparent text-accent">
-                    <span class="material-symbols-outlined">
-                        search
-                    </span>
-                </button>
-                <input type="text" class="input" placeholder="Search for products">
-
-            </div>
-
-            <div class="nav--actions d-flex flex-align-center">
-                <a id="search-toggle" href="#" class="nav--link text-black md-hidden">
-                    <span class="material-symbols-outlined">
-                        search
-                    </span>
-                </a>
-                <a href="#" class="nav--link text-black">
-                    <span class="material-symbols-outlined">
-                        shopping_cart
-                    </span>
-                </a>
-                <a href="#" class="nav--link text-black">
-                    <span class="material-symbols-outlined">
-                        account_circle
-                    </span>
-                </a>
-
-            </div>
-        </nav>
-
-        <section class="hero bg-accent">
-            <div class="wrapper d-grid grid-two-colmns">
-                <div class="hero__content">
-                    <h1 class="hero__title ff-integralcf fw-700 text-black text-uppercase">
-                        FIND CLOTHES THAT MATCHES YOUR STYLE
-                    </h1>
-                    <p class="hero__description">
-                        Browse through our diverse range of meticulously crafted garments, designed to bring out your
-                        individuality and cater to your sense of style.
-                    </p>
-                    <a href="#" class="btn btn--primary bg-black text-white">
-                        Shop Now
-                    </a>
-                    <div class="hero__counters d-flex flex-align-center">
-                        <div class="counter--item">
-                            <p class="text-black fw-700">200+</p>
-                            <p>International Brands</p>
-                        </div>
-                        <div class="counter--item">
-                            <p class="text-black fw-700">2,000+</p>
-                            <p>High-Quality Products</p>
-                        </div>
-                        <div class="counter--item">
-                            <p class="text-black fw-700">30,000+</p>
-                            <p>Happy Customers</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="hero__image">
-                    <img src="./assets/images/main--hero.png" alt="Hero Image" class="img">
-                </div>
-            </div>
-        </section>
-    </header>
     <script src="./js/main.js"></script>
-</body>
-
+  </body>
 </html>
