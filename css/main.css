@@ -898,26 +898,30 @@ select {
   scrollbar-width: none;
   overflow: auto;
   scroll-snap-type: x mandatory;
-  padding-right: 6rem;
+  padding-right: 2rem;
   &::-webkit-scrollbar {
     display: none;
   }
+  @media (width>768px) {
+    padding-right: 7rem;
+  }
 }
 
-/* Blurred Effect for Overflow */
 .blur-overlay {
   position: absolute;
   top: 0;
   bottom: 0;
-  width: 100px; /* Adjust width of blur */
+  width: 85px;
   pointer-events: none;
   z-index: 2;
   backdrop-filter: blur(1px);
+  @media (width>768px) {
+    width: 100px;
+  }
 }
 
-/* Right Blur */
 .blur-right {
-  right: 0;
+  right: -25px;
   background: linear-gradient(
     to left,
     rgba(255, 255, 255, 0.8),

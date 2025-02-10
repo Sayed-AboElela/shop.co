@@ -14,6 +14,603 @@
   </head>
 
   <body>
+    <header class="">
+      <nav id="navbar" class="wrapper navbar d-flex flex-align-center flex-justify-between">
+          <div class="d-flex flex-align-center logo--container">
+              <label for="toggle" id="btn--mobile--menu"
+                  class="btn btn--toggeler bg-transparent d-flex flex-align-center flex-justify-center text-black">
+                  <span class="material-symbols-outlined fw-500">
+                      menu
+                  </span>
+              </label>
+              <a href="#" class="logo ff-integralcf fw-700 text-black text-uppercase">
+                  SHOP.CO
+              </a>
+          </div>
+          <ul role="list" id="navlist" class="navlist d-flex flex-align-center">
+              <button id="btn--close" class="btn btn--close bg-transparent text-black md-hidden">
+                  <span class="material-symbols-outlined">
+                      close
+                  </span>
+              </button>
+  
+              <li class="nav--item">
+                  <a href="#" class="nav--link d-flex flex-align-center text-black" style="--gap:0.1rem">
+                      Shop
+                      <span class="material-symbols-outlined fw-500">
+                          arrow_drop_down
+                      </span>
+                  </a>
+              </li>
+              <li class="nav--item">
+                  <a href="#" class="nav--link text-black">
+                      On Sale
+                  </a>
+              </li>
+              <li class="nav--item">
+                  <a href="#" class="nav--link text-black">
+                      New Arrivals
+                  </a>
+              </li>
+              <li class="nav--item">
+                  <a href="#" class="nav--link text-black">
+                      Brands
+                  </a>
+              </li>
+          </ul>
+  
+          <div id="input-group__search" class="input-group input-group__search flex-align-center bg-accent">
+  
+              <button class="btn d-flex bg-transparent text-accent">
+                  <span class="material-symbols-outlined">
+                      search
+                  </span>
+              </button>
+              <input type="text" class="input" placeholder="Search for products">
+  
+          </div>
+  
+          <div class="nav--actions d-flex flex-align-center">
+              <a id="search-toggle" href="#" class="nav--link text-black md-hidden">
+                  <span class="material-symbols-outlined">
+                      search
+                  </span>
+              </a>
+              <a href="#" class="nav--link text-black">
+                  <span class="material-symbols-outlined">
+                      shopping_cart
+                  </span>
+              </a>
+              <a href="#" class="nav--link text-black">
+                  <span class="material-symbols-outlined">
+                      account_circle
+                  </span>
+              </a>
+  
+          </div>
+      </nav>
+  
+      <section class="hero bg-accent">
+          <div class="wrapper d-grid grid-two-colmns">
+              <div class="hero__content">
+                  <h1 class="hero__title ff-integralcf fw-700 text-black text-uppercase">
+                      FIND CLOTHES THAT MATCHES YOUR STYLE
+                  </h1>
+                  <p class="hero__description">
+                      Browse through our diverse range of meticulously crafted garments, designed to bring out your
+                      individuality and cater to your sense of style.
+                  </p>
+                  <a href="#" class="btn btn--primary bg-black text-white">
+                      Shop Now
+                  </a>
+                  <div class="hero__counters d-flex flex-align-center">
+                      <div class="counter--item">
+                          <p class="text-black fw-700">200+</p>
+                          <p>International Brands</p>
+                      </div>
+                      <div class="counter--item">
+                          <p class="text-black fw-700">2,000+</p>
+                          <p>High-Quality Products</p>
+                      </div>
+                      <div class="counter--item">
+                          <p class="text-black fw-700">30,000+</p>
+                          <p>Happy Customers</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="hero__image">
+                  <img src="./assets/images/main--hero.png" alt="Hero Image" class="img">
+              </div>
+          </div>
+      </section>
+  </header>
+  <section class="block wrapper">
+    <h2
+      class="heading ff-integralcf text-black text-center fw-700 text-uppercase"
+    >
+    NEW ARRIVALS
+    </h2>
+    <div class="block--products ">
+      <article class="card card--product">
+        <header class="card-header card--image--wrapper">
+          <img
+            src="./assets/images/t-shirt-01.png"
+            alt="Shop.co"
+            class="card__image"
+          />
+        </header>
+        <div class="card__body flow" style="--flow-gap: 0.5rem">
+          <a href="">
+            <h4
+              class="product__title fs-400 fw-700 text-black text-capitalize"
+            >
+              t-shirt with tape details
+            </h4>
+          </a>
+          <div class="d-flex" style="--gap: 0.2rem">
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+
+            <div class="rating-box fs-200 d-flex flex-align-center">
+              <span class="text-black">4.5/</span>5
+            </div>
+          </div>
+          <div class="d-flex flex-align-center" style="--gap: 0.625rem">
+            <p class="product__price text-black fw-700">$120</p>
+            <p class="product__price text-black fw-700 text-cancelled">
+              $120
+            </p>
+            <p class="product__discount bg-danger-lighter fw-500 text-danger">
+              -20%
+            </p>
+          </div>
+        </div>
+      </article>
+      <article class="card card--product">
+        <header class="card-header card--image--wrapper">
+          <img
+            src="./assets/images/t-shirt-01.png"
+            alt="Shop.co"
+            class="card__image"
+          />
+        </header>
+        <div class="card__body flow" style="--flow-gap: 0.5rem">
+          <h4 class="product__title fs-400 fw-700 text-black text-capitalize">
+            t-shirt with tape details
+          </h4>
+          <div class="d-flex" style="--gap: 0.2rem">
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+
+            <div class="rating-box fs-200 d-flex flex-align-center">
+              <span class="text-black">4.5/</span>5
+            </div>
+          </div>
+          <div class="d-flex flex-align-center" style="--gap: 0.625rem">
+            <p class="product__price text-black fw-700">$120</p>
+            <p class="product__price text-black fw-700 text-cancelled">
+              $120
+            </p>
+            <p class="product__discount bg-danger-lighter fw-500 text-danger">
+              -20%
+            </p>
+          </div>
+        </div>
+      </article>
+      <article class="card card--product">
+        <header class="card-header card--image--wrapper">
+          <img
+            src="./assets/images/t-shirt-01.png"
+            alt="Shop.co"
+            class="card__image"
+          />
+        </header>
+        <div class="card__body flow" style="--flow-gap: 0.5rem">
+          <h4 class="product__title fs-400 fw-700 text-black text-capitalize">
+            t-shirt with tape details
+          </h4>
+          <div class="d-flex" style="--gap: 0.2rem">
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+
+            <div class="rating-box fs-200 d-flex flex-align-center">
+              <span class="text-black">4.5/</span>5
+            </div>
+          </div>
+          <div class="d-flex flex-align-center" style="--gap: 0.625rem">
+            <p class="product__price text-black fw-700">$120</p>
+            <p class="product__price text-black fw-700 text-cancelled">
+              $120
+            </p>
+            <p class="product__discount bg-danger-lighter fw-500 text-danger">
+              -20%
+            </p>
+          </div>
+        </div>
+      </article>
+      <article class="card card--product">
+        <header class="card-header card--image--wrapper">
+          <img
+            src="./assets/images/t-shirt-01.png"
+            alt="Shop.co"
+            class="card__image"
+          />
+        </header>
+        <div class="card__body flow" style="--flow-gap: 0.5rem">
+          <h4 class="product__title fs-400 fw-700 text-black text-capitalize">
+            t-shirt with tape details
+          </h4>
+          <div class="d-flex" style="--gap: 0.2rem">
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+
+            <div class="rating-box fs-200 d-flex flex-align-center">
+              <span class="text-black">4.5/</span>5
+            </div>
+          </div>
+          <div class="d-flex flex-align-center" style="--gap: 0.625rem">
+            <p class="product__price text-black fw-700">$120</p>
+            <p class="product__price text-black fw-700 text-cancelled">
+              $120
+            </p>
+            <p class="product__discount bg-danger-lighter fw-500 text-danger">
+              -20%
+            </p>
+          </div>
+        </div>
+      </article>
+    </div>
+    <div class="d-flex flex-justify-center">
+      <a href="" class="btn btn--outline">view all</a>
+    </div>
+  </section>
+
+  <section class="block wrapper">
+    <h2
+      class="heading ff-integralcf text-black text-center fw-700 text-uppercase"
+    >
+    top selling
+    </h2>
+    <div class="block--products">
+      <article class="card card--product">
+        <header class="card-header card--image--wrapper">
+          <img
+            src="./assets/images/t-shirt-01.png"
+            alt="Shop.co"
+            class="card__image"
+          />
+        </header>
+        <div class="card__body flow" style="--flow-gap: 0.5rem">
+          <a href="">
+            <h4
+              class="product__title fs-400 fw-700 text-black text-capitalize"
+            >
+              t-shirt with tape details
+            </h4>
+          </a>
+          <div class="d-flex" style="--gap: 0.2rem">
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+
+            <div class="rating-box fs-200 d-flex flex-align-center">
+              <span class="text-black">4.5/</span>5
+            </div>
+          </div>
+          <div class="d-flex flex-align-center" style="--gap: 0.625rem">
+            <p class="product__price text-black fw-700">$120</p>
+            <p class="product__price text-black fw-700 text-cancelled">
+              $120
+            </p>
+            <p class="product__discount bg-danger-lighter fw-500 text-danger">
+              -20%
+            </p>
+          </div>
+        </div>
+      </article>
+      <article class="card card--product">
+        <header class="card-header card--image--wrapper">
+          <img
+            src="./assets/images/t-shirt-01.png"
+            alt="Shop.co"
+            class="card__image"
+          />
+        </header>
+        <div class="card__body flow" style="--flow-gap: 0.5rem">
+          <h4 class="product__title fs-400 fw-700 text-black text-capitalize">
+            t-shirt with tape details
+          </h4>
+          <div class="d-flex" style="--gap: 0.2rem">
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+
+            <div class="rating-box fs-200 d-flex flex-align-center">
+              <span class="text-black">4.5/</span>5
+            </div>
+          </div>
+          <div class="d-flex flex-align-center" style="--gap: 0.625rem">
+            <p class="product__price text-black fw-700">$120</p>
+            <p class="product__price text-black fw-700 text-cancelled">
+              $120
+            </p>
+            <p class="product__discount bg-danger-lighter fw-500 text-danger">
+              -20%
+            </p>
+          </div>
+        </div>
+      </article>
+      <article class="card card--product">
+        <header class="card-header card--image--wrapper">
+          <img
+            src="./assets/images/t-shirt-01.png"
+            alt="Shop.co"
+            class="card__image"
+          />
+        </header>
+        <div class="card__body flow" style="--flow-gap: 0.5rem">
+          <h4 class="product__title fs-400 fw-700 text-black text-capitalize">
+            t-shirt with tape details
+          </h4>
+          <div class="d-flex" style="--gap: 0.2rem">
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+
+            <div class="rating-box fs-200 d-flex flex-align-center">
+              <span class="text-black">4.5/</span>5
+            </div>
+          </div>
+          <div class="d-flex flex-align-center" style="--gap: 0.625rem">
+            <p class="product__price text-black fw-700">$120</p>
+            <p class="product__price text-black fw-700 text-cancelled">
+              $120
+            </p>
+            <p class="product__discount bg-danger-lighter fw-500 text-danger">
+              -20%
+            </p>
+          </div>
+        </div>
+      </article>
+      <article class="card card--product">
+        <header class="card-header card--image--wrapper">
+          <img
+            src="./assets/images/t-shirt-01.png"
+            alt="Shop.co"
+            class="card__image"
+          />
+        </header>
+        <div class="card__body flow" style="--flow-gap: 0.5rem">
+          <h4 class="product__title fs-400 fw-700 text-black text-capitalize">
+            t-shirt with tape details
+          </h4>
+          <div class="d-flex" style="--gap: 0.2rem">
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+
+            <div class="rating-box fs-200 d-flex flex-align-center">
+              <span class="text-black">4.5/</span>5
+            </div>
+          </div>
+          <div class="d-flex flex-align-center" style="--gap: 0.625rem">
+            <p class="product__price text-black fw-700">$120</p>
+            <p class="product__price text-black fw-700 text-cancelled">
+              $120
+            </p>
+            <p class="product__discount bg-danger-lighter fw-500 text-danger">
+              -20%
+            </p>
+          </div>
+        </div>
+      </article>
+    </div>
+    <div class="d-flex flex-justify-center">
+      <a href="" class="btn btn--outline">view all</a>
+    </div>
+  </section>
+  <section class="wrapper">
+    <div class="block block--styles bg-accent">
+      <h2
+        class="heading heading--styles__block ff-integralcf text-black text-center fw-700 text-uppercase"
+      >
+        BROWSE BY dress STYLE
+      </h2>
+      <div class="d-grid d-grid-place-center block--styles__grid">
+        <div class="block--styles__item bg-white d-flex">
+          <h3
+            class="block--styles__item--heading text-black fw-700 text-capitalize"
+          >
+            casual
+          </h3>
+          <img
+            src="./assets/images/card--image--2.png"
+            alt="Shop.co"
+            class="block--styles__image"
+            />
+        </div>
+
+        <div class="block--styles__item bg-white d-flex">
+          <h3
+            class="block--styles__item--heading text-black fw-700 text-capitalize"
+          >
+            Formal
+          </h3>
+          
+          <img
+            src="./assets/images/card--image.png"
+            alt="Shop.co"
+            class="block--styles__image"
+          />
+        </div>
+
+        <div class="block--styles__item bg-white d-flex">
+          <h3
+            class="block--styles__item--heading text-black fw-700 text-capitalize"
+          >
+            Party
+          </h3>
+          <img
+            src="./assets/images/card--image--3.png"
+            alt="Shop.co"
+            class="block--styles__image"
+          />
+        </div>
+
+        <div class="block--styles__item bg-white d-flex">
+          <h3
+            class="block--styles__item--heading text-black fw-700 text-capitalize"
+          >
+            Gym
+          </h3>
+          <img
+            src="./assets/images/card--image--4.png"
+            alt="Shop.co"
+            class="block--styles__image"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="block wrapper block--testimonial">
+    <header
+      class="block--testimonial__header d-flex flex-align-center flex-justify-between"
+    >
+      <h2
+        class="heading heading--testimonial ff-integralcf text-black fw-700 text-uppercase"
+      >
+        OUR HAPPY CUSTOMERS
+      </h2>
+      <div class="block--testimonial__actions d-flex">
+        <button
+          id="prev-btn"
+          class="btn btn--testimonial btn--testimonial__left"
+        >
+          <img src="./assets/icons/arrow-left.svg" alt="" />
+        </button>
+  
+        <button
+          id="next-btn"
+          class="btn btn--testimonial btn--testimonial__right"
+        >
+          <img src="./assets/icons/arrow-right.svg" alt="" />
+        </button>
+      </div>
+    </header>
+  
+    <section class="testimonial-list-wrapper">
+      <div class="blur-overlay blur-right"></div>
+      <div id="testimonial--list" class="testimonial__content">
+        <article class="testimonial__item">
+          <div
+            class="d-flex testimonial__item--stars"
+            style="--gap: 0.2rem"
+          >
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+          </div>
+          <div class="d-flex flex-align-center">
+            <p class="fw-700 text-black">Sarah M.</p>
+            <img src="./assets/icons/success.svg" alt="" />
+          </div>
+          <p class="testimonial__item--text">
+            I love the quality of the products and the customer service is
+            amazing!
+          </p>
+        </article>
+        <article class="testimonial__item">
+          <div
+            class="d-flex testimonial__item--stars"
+            style="--gap: 0.2rem"
+          >
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+          </div>
+          <div class="d-flex flex-align-center">
+            <p class="fw-700 text-black">Sarah M.</p>
+            <img src="./assets/icons/success.svg" alt="" />
+          </div>
+          <p class="testimonial__item--text">
+            I love the quality of the products and the customer service is
+            amazing!
+          </p>
+        </article>
+        <article class="testimonial__item">
+          <div
+            class="d-flex testimonial__item--stars"
+            style="--gap: 0.2rem"
+          >
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+          </div>
+          <div class="d-flex flex-align-center">
+            <p class="fw-700 text-black">Sarah M.</p>
+            <img src="./assets/icons/success.svg" alt="" />
+          </div>
+          <p class="testimonial__item--text">
+            I love the quality of the products and the customer service is
+            amazing!
+          </p>
+        </article>
+        <article class="testimonial__item">
+          <div
+            class="d-flex testimonial__item--stars"
+            style="--gap: 0.2rem"
+          >
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+          </div>
+          <div class="d-flex flex-align-center">
+            <p class="fw-700 text-black">Sarah M.</p>
+            <img src="./assets/icons/success.svg" alt="" />
+          </div>
+          <p class="testimonial__item--text">
+            I love the quality of the products and the customer service is
+            amazing!
+          </p>
+        </article>
+        <article class="testimonial__item">
+          <div
+            class="d-flex testimonial__item--stars"
+            style="--gap: 0.2rem"
+          >
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+            <span class="material-symbols-outlined-filled"> star </span>
+          </div>
+          <div class="d-flex flex-align-center">
+            <p class="fw-700 text-black">Sarah M.</p>
+            <img src="./assets/icons/success.svg" alt="" />
+          </div>
+          <p class="testimonial__item--text">
+            I love the quality of the products and the customer service is
+            amazing!
+          </p>
+        </article>
+      </div>
+    </section>
+  </div>
     <footer class="footer bg-accent">
       <div class="wrapper footer__wrapper">
         <section class="footer--newsletter d-grid bg-black">
