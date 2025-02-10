@@ -866,6 +866,9 @@ select {
   }
 }
 
+.testimonial-list-wrapper {
+  position: relative;
+}
 .testimonial__content {
   display: flex;
   gap: 1.25rem;
@@ -875,10 +878,31 @@ select {
   scrollbar-width: none;
   overflow: auto;
   scroll-snap-type: x mandatory;
-
+  padding-right: 6rem;
   &::-webkit-scrollbar {
     display: none;
   }
+}
+
+/* Blurred Effect for Overflow */
+.blur-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100px; /* Adjust width of blur */
+  pointer-events: none;
+  z-index: 2;
+  backdrop-filter: blur(1px);
+}
+
+/* Right Blur */
+.blur-right {
+  right: 0;
+  background: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0)
+  );
 }
 
 .testimonial__item {
