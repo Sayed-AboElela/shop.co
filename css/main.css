@@ -120,6 +120,7 @@ a:not([class]) {
 a {
   text-decoration: none;
   outline: none;
+  color: inherit;
 }
 
 /* Make images easier to work with */
@@ -1054,4 +1055,26 @@ select {
   padding-bottom: 5rem;
   padding-top: 2.5rem;
   border-top: 1px solid hsl(var(--clr-black) / 0.1);
+}
+
+/* Breadcrumbs */
+.list--breadcrumbs {
+  margin-bottom: clamp(1.25rem, 3.2vw, 2.25rem);
+}
+
+.list--breadcrumbs__item {
+  display: flex;
+}
+
+.list--breadcrumbs__item:not(:last-of-type)::after {
+  font-family: "Material Symbols Outlined";
+  content: "arrow_forward_ios";
+  -webkit-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  display: inline-block;
+  margin-left: 0.25rem;
+}
+
+.list--breadcrumbs__item:is(:last-of-type) {
+  color: hsl(var(--clr-black));
 }
