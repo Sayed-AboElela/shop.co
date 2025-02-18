@@ -1501,8 +1501,8 @@ input[name="tab"] {
 .category--products {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-
+    column-gap: 1rem;
+    row-gap: 2.5rem;
     @media (width > 1023px) {
         grid-template-columns: repeat(3, 1fr);
     }
